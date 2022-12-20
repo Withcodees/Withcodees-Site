@@ -5,22 +5,27 @@
 	
 }
 
+body{
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #ee7752, #e73c7e, #23a6d5,#23d5ab);
+	background-size: 500% 500%;
+	
+}
+
+
 #particles-js {
-background-color: black;
-z-index: 2;
+z-index: 3;
 width: 100%;
 height: 100%;
 background-position: 50% 50%;
 }
 
-
-
-
-
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-color: black;
+	
 	
 	
 }
@@ -120,7 +125,7 @@ h4{
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background-color: #024959;
 }
 .about img{
 	height: auto;
@@ -174,7 +179,7 @@ button:hover{
 }
 
 .service{
-	background: #101010;
+	background: #3CA6A6;
 	width: 100%;
 	padding: 100px 0px;
 }
@@ -270,7 +275,7 @@ footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background: #101010;
+	background: #107361;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
