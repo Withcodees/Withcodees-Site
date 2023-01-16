@@ -6,10 +6,9 @@
 }
 
 body {
-	margin: 0;
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(0, #fff8ff 0, #ffdfff 16.67%, #e4c1f7 33.33%, #b1a0c5 50%, #857f93 66.67%, #626167 83.33%, #484841 100%);
+	background-image: linear-gradient(0, #fff8ff 0, #ffdfff 16.67%, #e4c1f7 33.33%, #d3ceda 50%, #d6d1e2 66.67%, #3e92a7 83.33%, #220f0c 100%);
 	background-size: 500% 500%;
 
 }
@@ -26,8 +25,6 @@ body {
 	height: 100vh;
 	width: 100%;
 
-
-
 }
 
 nav {
@@ -37,9 +34,10 @@ nav {
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
+	
 }
 
-.logo {
+.logo h2{
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
@@ -69,18 +67,23 @@ nav ul li a:hover {
 }
 
 .btn {
-	background-color: #99CCFF;
-	color: red;
+	background-color: #f9004d;
+	color:#ffffff;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
 	padding: 10px 25px;
 	border-radius: 30px;
 	transition: transform .4s;
+	font-size: medium;
 }
 
 .btn:hover {
-	transform: scale(1.2);
+	/* transform: scale(1.2); */
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+	color:white
 }
 
 .content {
@@ -153,8 +156,8 @@ h4 {
 }
 
 .main {
-	width: 1130px;
-	max-width: 95%;
+	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -190,7 +193,7 @@ button {
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 13px 20px;
 	border-radius: 30px;
 	transition: .4s;
 }
@@ -210,7 +213,7 @@ button:hover {
 .title h2 {
 	color: white;
 	font-size: 75px;
-	width: 1130px;
+	width:100%;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -358,7 +361,9 @@ footer p:nth-child(2) {
 
 .end {
 	position: absolute;
-	color: #f9004d;
+	color: white;
 	bottom: 35px;
 	font-size: 14px;
 }
+
+  
