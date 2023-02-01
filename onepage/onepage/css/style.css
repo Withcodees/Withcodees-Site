@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
 
 }
 
@@ -142,7 +143,7 @@ h4 {
 
 .about {
 	width: 100%;
-	padding: 100px 0px;
+	padding: 100px 50px;
 	background-color: #024959;
 }
 
@@ -366,4 +367,8 @@ footer p:nth-child(2) {
 	font-size: 14px;
 }
 
-  
+  @media screen and (max-width:768px){
+	.service .card{
+		width: 100%;
+	}
+  }
