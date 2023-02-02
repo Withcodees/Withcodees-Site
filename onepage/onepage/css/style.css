@@ -35,10 +35,10 @@ nav {
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
-	
+
 }
 
-.logo h2{
+.logo h2 {
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 .btn {
 	background-color: #f9004d;
-	color:#ffffff;
+	color: #ffffff;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
@@ -84,7 +84,7 @@ nav ul li a:hover {
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
-	color:white
+	color: white
 }
 
 .content {
@@ -208,34 +208,39 @@ button:hover {
 .service {
 	background: #3CA6A6;
 	width: 100%;
-	padding: 100px 0px;
+	padding: 50px 0px;
 }
 
 .title h2 {
 	color: white;
 	font-size: 75px;
-	width:100%;
-	margin: 30px auto;
+	width: 100%;
+	margin: 20px 0;
 	text-align: center;
 }
 
 .box {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
 	min-height: 400px;
 }
 
+.row {
+	width: 25%;
+	float: left;
+	padding: 20px;
+}
+
 .card {
-	height: 365px;
-	width: 335px;
-	padding: 20px 35px;
+	float: left;
+	height: 400px;
 	background: #191919;
 	border-radius: 20px;
-	margin: 15px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	box-shadow: 5px 5px 10px white;
 }
 
 .card i {
@@ -255,8 +260,8 @@ h5 {
 
 .pra p {
 	color: #fcfc;
-	font-size: 16px;
-	line-height: 27px;
+	font-size: 15px;
+	line-height: 20px;
 	margin-bottom: 25px;
 }
 
@@ -266,9 +271,10 @@ h5 {
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 9px 22px;
+	padding: 10px 22px;
 	border-radius: 30px;
 	transition: .4s;
+	text-align: center;
 }
 
 .card .button:hover {
@@ -367,8 +373,33 @@ footer p:nth-child(2) {
 	font-size: 14px;
 }
 
-  @media screen and (max-width:768px){
-	.service .card{
-		width: 100%;
+@media screen and (max-width:800px) {
+	.row {
+		width: 50%;
+
 	}
-  }
+
+	.card {
+		height: 350px;
+	}
+
+	.title h2 {
+		font-size: 45px;
+		padding: 0 10px;
+	}
+	
+}
+@media screen and (max-width:360px) {
+	.row {
+		width:100%;
+	}
+
+	.card {
+		height:300px;
+	}
+
+	.title h2 {
+		font-size: 35px;
+		padding: 0 10px;
+	}
+}
