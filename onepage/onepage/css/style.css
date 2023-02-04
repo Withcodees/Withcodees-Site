@@ -24,6 +24,8 @@ body {
 
 
 nav {
+	width: 100%;
+	white-space: nowrap;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -167,6 +169,7 @@ h4 {
 	font-size: 20px;
 }
 
+/* 
 .newslatter form {
 	width: 380px;
 	max-width: 100%;
@@ -194,7 +197,7 @@ h4 {
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
 	right: 6px;
-}
+} */
 
 .about {
 	width: 100%;
@@ -202,13 +205,14 @@ h4 {
 	background-color: #024959;
 }
 
-.about img {
+/* .about img {
 	height: auto;
 	width: 430px;
-}
+} */
 
 .about-text {
 	width: 550px;
+	text-align: justify;
 }
 
 .main {
@@ -294,7 +298,6 @@ button:hover {
 	border-radius: 20px;
 	position: relative;
 	overflow: hidden;
-	text-align: center;
 	box-shadow: 5px 5px 10px #191919;
 }
 
@@ -308,12 +311,14 @@ button:hover {
 }
 
 h5 {
+	text-align: center;
 	color: white;
 	font-size: 23px;
 	margin-bottom: 15px;
 }
 
 .pra p {
+	padding: 10px;
 	color: #fcfc;
 	font-size: 15px;
 	line-height: 20px;
