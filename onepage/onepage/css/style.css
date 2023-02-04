@@ -295,7 +295,7 @@ button:hover {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	box-shadow: 5px 5px 10px white;
+	box-shadow: 5px 5px 10px #191919;
 }
 
 .card i {
